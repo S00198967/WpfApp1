@@ -1,0 +1,46 @@
+﻿<Window
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        xmlns:System="clr-namespace:System;assembly=mscorlib" x:Class="WpfApp1.MainWindow"
+        mc:Ignorable="d"
+        Title="Employee App" Height="450" Width="800">
+
+    <Grid >
+
+        <TextBox Height="23" TextWrapping="Wrap" Text="First Name Jane" Width="120" Margin="336,80,336,316"/>
+        <TextBox Height="23" TextWrapping="Wrap" Text="Surname Jones" Width="120" Margin="336,130,336,266"/>
+        <TextBox Height="23" TextWrapping="Wrap" Text="Salary" Width="120" Margin="336,211,336,185"/>
+        <TextBox Height="23" TextWrapping="Wrap" Text="Hours worked 10" Width="120" Margin="336,253,336,143"/>
+        <TextBox Height="23" TextWrapping="Wrap" Text="Hourly Rate 15" Width="120" Margin="336,296,336,100"/>
+        <TextBox Height="23" TextWrapping="Wrap" Text="Monthly Pay 150" Width="120" Margin="336,338,336,58"/>
+
+
+        <StackPanel HorizontalAlignment="Left"/>
+        <Button Content="Clear" Margin="559,79,169,320"/>
+        <Button Content="Add" Margin="559,130,169,269"/>
+        <Button Content="Update" Margin="559,171,169,228" RenderTransformOrigin="0.478,1.332"/>
+        <Button Content="Delete" Margin="559,219,169,180"/>
+        <ListBox HorizontalAlignment="Left" Height="262" VerticalAlignment="Top" Width="174" Margin="66,74,0,0"/>
+        <CheckBox Content="Full Time" Margin="53,30,668,374"/>
+        <CheckBox Content="Part Time" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="144,30,0,0"/>
+        <RadioButton Content="FT" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="336,176,0,0"/>
+        <RadioButton Content="PT" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="407,176,0,0"/>
+        <TextBox HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="MURPHY, Joe - Full Time" VerticalAlignment="Top" Width="160" Margin="80,117,0,0"/>
+        <TextBox HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="SMITH, John - Part Time" VerticalAlignment="Top" Width="160" Margin="80,145,0,0"/>
+        <TextBox HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="JONES, Jane -Part Time" VerticalAlignment="Top" Width="160" Margin="80,89,0,0"/>
+        <TextBox HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="WALSH, Jess - Full Time" VerticalAlignment="Top" Width="160" Margin="80,173,0,0"/>
+        <TextBox HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="EMPLOYEES" VerticalAlignment="Top" Width="120" Margin="80,51,0,0"/>
+    </Grid>
+
+</Window>
+        
+        
+        
+
+    
+
+
+            
