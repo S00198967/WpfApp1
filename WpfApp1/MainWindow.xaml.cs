@@ -20,9 +20,35 @@ namespace WpfApp1
     /// </summary>
     public partial class MainWindow : Window
     {
+        private object tbxSurname;
+        private object tbxFirstName;
+
         public MainWindow()
         {
             InitializeComponent();
         }
+
+        private void Window_Loaded(object sender, RoutedEventArgs e)
+        {
+            string[] names = {"Jane JONES", "Joe MURPHY", "John SMITH", "Jess WALSH"};
+        }
+
+        private void tbxNewName_GotFocus(object sender, RoutedEventArgs e)
+        {
+            
+        }
+
+        private void btnAddName_Click(object sender, RoutedEventArgs e)
+        {
+            string firstName = (string)tbxFirstName;
+            _ = tbxSurname;
+        }
+
+        
+
+
+        }
     }
-}
+
+
+

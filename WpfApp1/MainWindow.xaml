@@ -10,12 +10,11 @@
 
     <Grid >
 
-        <TextBox Height="23" TextWrapping="Wrap" Text="First Name Jane" Width="120" Margin="336,80,336,316"/>
-        <TextBox Height="23" TextWrapping="Wrap" Text="Surname Jones" Width="120" Margin="336,130,336,266"/>
-        <TextBox Height="23" TextWrapping="Wrap" Text="Salary" Width="120" Margin="336,211,336,185"/>
-        <TextBox Height="23" TextWrapping="Wrap" Text="Hours worked 10" Width="120" Margin="336,253,336,143"/>
-        <TextBox Height="23" TextWrapping="Wrap" Text="Hourly Rate 15" Width="120" Margin="336,296,336,100"/>
-        <TextBox Height="23" TextWrapping="Wrap" Text="Monthly Pay 150" Width="120" Margin="336,338,336,58"/>
+        <TextBox Height="23" TextWrapping="Wrap" Text="Jane" Margin="407,80,336,316"/>
+        <TextBox Height="23" TextWrapping="Wrap" Text="Jones" Margin="407,130,336,266"/>
+        <TextBox Height="23" TextWrapping="Wrap" Text="" Margin="407,211,336,185"/>
+        <TextBox Height="23" TextWrapping="Wrap" Text="10" Margin="407,253,336,143"/>
+        <TextBox Height="23" TextWrapping="Wrap" Text="15" Margin="407,296,336,100"/>
 
 
         <StackPanel HorizontalAlignment="Left"/>
@@ -28,11 +27,20 @@
         <CheckBox Content="Part Time" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="144,30,0,0"/>
         <RadioButton Content="FT" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="336,176,0,0"/>
         <RadioButton Content="PT" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="407,176,0,0"/>
-        <TextBox HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="MURPHY, Joe - Full Time" VerticalAlignment="Top" Width="160" Margin="80,117,0,0"/>
-        <TextBox HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="SMITH, John - Part Time" VerticalAlignment="Top" Width="160" Margin="80,145,0,0"/>
-        <TextBox HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="JONES, Jane -Part Time" VerticalAlignment="Top" Width="160" Margin="80,89,0,0"/>
-        <TextBox HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="WALSH, Jess - Full Time" VerticalAlignment="Top" Width="160" Margin="80,173,0,0"/>
-        <TextBox HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="EMPLOYEES" VerticalAlignment="Top" Width="120" Margin="80,51,0,0"/>
+        <TextBlock TextWrapping="Wrap" Text="MURPHY, Joe - Full Time" Margin="81,104,552,296"/>
+        <TextBlock TextWrapping="Wrap" Text=" SMITH, John - Part Time" Margin="80,128,578,272"/>
+        <TextBlock TextWrapping="Wrap" Text="JONES, Jane -Part Time" Margin="81,80,578,320"/>
+        <TextBlock TextWrapping="Wrap" Text="WALSH, Jess - Full Time" Margin="80,152,578,253"/>
+        
+      
+        <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="Monthly Pay €150.00" VerticalAlignment="Top" Margin="339,344,0,0"/>
+        <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Margin="318,254,0,0"><Run Text="Hours Worked"/></TextBlock>
+        <TextBlock TextWrapping="Wrap" Text="First Name" Margin="334,81,390,319"/>
+        <TextBlock TextWrapping="Wrap" Margin="341,133,401,270"><Run Text="Surname"/></TextBlock>
+        <TextBlock TextWrapping="Wrap" Margin="344,215,398,188"><Run Text="Salary"/></TextBlock>
+        <TextBlock TextWrapping="Wrap" Margin="318,296,401,100"><Run Text="Hourly Rate"/></TextBlock>
+        <TextBlock TextWrapping="Wrap" Margin="80,58,643,345"><Run Text="EMPLOYEES"/></TextBlock>
+        
     </Grid>
 
 </Window>
